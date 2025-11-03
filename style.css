@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -9,6 +9,22 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #e06c75; /* Red accent for name */
+    font-family: 'Funnel Sans', sans-serif;
+}
+
+.section h2 {
+    color: #61afef; /* Blue accent for section titles */
+    border-bottom: 2px solid #5c6370;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-family: 'Funnel Sans', sans-serif;
 }
 
 .container {
@@ -102,10 +118,16 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.birthday-countdown.birthday-today {
-    background: linear-gradient(to right, #e06c75, #c678dd); /* Red to Purple for birthday */
-    color: #fff;
-    border-color: #e06c75;
+.current-time {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: 2px solid #98c379; /* Green accent */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    background: #5c6370;
+    color: #e5c07b;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .main-footer {
